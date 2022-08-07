@@ -1,0 +1,19 @@
+### Use REST CLIENT extension in Visual Studio Code. 
+
+GET http://localhost:5010/configuration/get/redisconfig/withdrawVersion
+
+###
+
+POST http://127.0.0.1:5000/deposit 
+Content-Type: application/json
+
+{ "id": "1", "amount": 100000 }
+
+
+###
+POST http://127.0.0.1:5010/configuration/withdraw
+Content-Type: application/json 
+
+{ "id": "1", "amount": 10 }
+
+
